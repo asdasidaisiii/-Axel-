@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switches Layout</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <div class="switch-container">
+      <div class="switch-item">
+        <span class="h2">tamanho (pedido individual)</span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Copo 300 ml   (8,00)</span>
+        <label class="switch">
+          <input type="checkbox"  id="1"> <!-- checked> Switch 1 inicia ativo -->
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Copo 400 ml (12,00)</span>
+        <label class="switch">
+          <input type="checkbox" id="2">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Copo 500 ml (15,00)</span>
+        <label class="switch">
+          <input type="checkbox" id="3">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Copo 700 ml (18,00)</span>
+        <label class="switch">
+          <input type="checkbox" id="4">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="h2">complementos (escolha até 04)</span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Leite condensado</span>
+        <label class="switch">
+           <input type="checkbox" checked> <!-- Switch 1 inicia ativo -->
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Granola</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Amendoim</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Flocos de arroz</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Cereal matinal</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Neston</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Leite em pó</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Farinha de tapióca</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="h2">frutas (escolha até 03)</span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Maça</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Uva roxa</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Uva verde</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Pera</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Banana</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Kiwi</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="switch-item">
+        <span class="switch-label">Abacaxi</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    <div class="description-box">
+      <textarea placeholder="Deseja adicionar alguma observação? Insira aqui..."></textarea>
+    </div>
+      <!-- Rodapé para exibir o total -->
+      <div id="total-container">
+        Total: <span id="total">0</span>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
